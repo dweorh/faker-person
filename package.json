@@ -1,0 +1,25 @@
+{
+  "name": "@dweorh/faker-person",
+  "version": "0.0.1",
+  "description": "Faker - person generator",
+  "main": "./src/person_generator.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "generator": "node ./examples/example01.js"
+  },
+  "type": "module",
+  "keywords": [
+    "faker",
+    "generator"
+  ],
+  "author": {
+    "name": "Bartlomiej Bak aka dweorh",
+    "email": "bartlomiejbak@dweorh.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@vscode/sqlite3": "^5.0.8"
+  }
+}
